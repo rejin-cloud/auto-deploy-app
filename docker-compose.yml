@@ -1,0 +1,7 @@
+services:
+  web:
+    image: rejin-cloud/auto-deploy-app:latest
+    container_name: auto-deploy-app
+    ports:
+      - "80:80"
+    restart: always
